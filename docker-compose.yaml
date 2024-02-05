@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+    keeper:
+       build: .
+       container_name: keeper_app
+       ports:
+       - '3000:3000'
